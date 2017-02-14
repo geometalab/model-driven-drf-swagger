@@ -8,7 +8,7 @@ class Post(models.Model):
     slug = models.SlugField()
     content = models.TextField(verbose_name=_("content"))
     posted_on = models.DateTimeField(verbose_name=_("post date"))
-    posted_by = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name=_("posted by"))
+    posted_by = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name=_("posted by"), related_name='posts')
 
     class Meta:
         verbose_name = _('post')

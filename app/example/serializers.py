@@ -9,7 +9,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = User
-        fields = ('url', 'username', 'posts')
+        fields = ('username', 'posts')
 
 
 class PostSerializer(serializers.HyperlinkedModelSerializer):
@@ -17,7 +17,7 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Post
-        fields = ('title', 'slug', 'content', 'posted_on', 'posted_by')
+        fields = ('title', 'slug', 'content', 'posted_on', 'posted_by', 'comments')
 
 
 class CommentSerializer(serializers.ModelSerializer):

@@ -14,4 +14,6 @@ ADD app /app
 
 WORKDIR /app
 
-CMD python3 manage.py runserver_plus
+EXPOSE 8000
+
+CMD python3 manage.py runserver_plus 0.0.0.0:8000
