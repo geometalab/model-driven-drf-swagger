@@ -21,6 +21,8 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class CommentSerializer(serializers.ModelSerializer):
+    user = serializers.IntegerField()
+
     class Meta:
         model = Comment
         fields = ('message', 'commented_on', 'post', 'user')

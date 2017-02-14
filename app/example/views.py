@@ -9,7 +9,8 @@ from example.serializers import UserSerializer, PostSerializer, CommentSerialize
 class UserViewSet(viewsets.ReadOnlyModelViewSet):
     """
     This endpoint presents the users in the system.
-    As you can see, the collection of snippet instances owned by a user are
+
+    As you can see, the collection of posts instances made by a user are
     serialized using a hyperlinked representation.
     """
     queryset = User.objects.all()
@@ -18,8 +19,9 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
 
 class PostViewSet(viewsets.ModelViewSet):
     """
-    This endpoint presents the users in the system.
-    As you can see, the collection of snippet instances owned by a user are
+    This endpoint presents the posts in the system.
+
+    As you can see, the collection of comment instances belonging to a post are
     serialized using a hyperlinked representation.
     """
     queryset = Post.objects.all()
@@ -28,9 +30,9 @@ class PostViewSet(viewsets.ModelViewSet):
 
 class CommentViewSet(viewsets.ModelViewSet):
     """
-    This endpoint presents the users in the system.
-    As you can see, the collection of snippet instances owned by a user are
-    serialized using a hyperlinked representation.
+    This endpoint presents the comments in the system.
+
+    As you can see, these are just plain fields using id's.
     """
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer

@@ -4,6 +4,9 @@ from django.utils.translation import gettext_lazy as _
 
 
 class Post(models.Model):
+    """
+    Blog Post
+    """
     title = models.CharField(max_length=200, verbose_name=_("title"))
     slug = models.SlugField()
     content = models.TextField(verbose_name=_("content"))
