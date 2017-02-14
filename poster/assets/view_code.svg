@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="view_code.svg"
+   width="678.30273"
+   height="1249.6836"
+   inkscape:export-filename="/home/nicola/workspace/hsr/geometalab/model-driven-drf/poster/assets/view_code.png"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
+  <metadata
+     id="metadata320">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs318">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4448"
+       x="-0.0017054211"
+       width="1.0034108"
+       y="-0.00092566775"
+       height="1.0018513">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.48199658"
+         id="feGaussianBlur4450" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
+     id="namedview316"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.417193"
+     inkscape:cx="319.69123"
+     inkscape:cy="813.65565"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     font-size="14px"
+     id="g4"
+     style="font-size:14px;font-family:monospace;filter:url(#filter4448)"
+     transform="translate(0,-2.6181641)">
+    <text
+       x="0"
+       y="14"
+       xml:space="preserve"
+       id="text6"><tspan
+   font-weight="bold"
+   id="tspan8"
+   style="font-weight:bold;fill:#008000">class</tspan> <tspan
+   font-weight="bold"
+   id="tspan10"
+   style="font-weight:bold;fill:#0000ff">UserViewSet</tspan>(viewsets<tspan
+   id="tspan12"
+   style="fill:#666666">.</tspan>ReadOnlyModelViewSet):</text>
+    <text
+       x="0"
+       y="33"
+       xml:space="preserve"
+       id="text14">    <tspan
+   font-style="italic"
+   id="tspan16"
+   style="font-style:italic;fill:#ba2121">&quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="52"
+       xml:space="preserve"
+       id="text18"><tspan
+         font-style="italic"
+         id="tspan20"
+         style="font-style:italic;fill:#ba2121">    This endpoint presents the users in the system.</tspan></text>
+    <text
+       x="0"
+       y="71"
+       xml:space="preserve"
+       id="text22"><tspan
+         font-style="italic"
+         id="tspan24"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="90"
+       xml:space="preserve"
+       id="text26"><tspan
+         font-style="italic"
+         id="tspan28"
+         style="font-style:italic;fill:#ba2121">    list:</tspan></text>
+    <text
+       x="0"
+       y="109"
+       xml:space="preserve"
+       id="text30"><tspan
+         font-style="italic"
+         id="tspan32"
+         style="font-style:italic;fill:#ba2121">    List all the users. As you can see, the users posts are hyperlinked.</tspan></text>
+    <text
+       x="0"
+       y="128"
+       xml:space="preserve"
+       id="text34"><tspan
+         font-style="italic"
+         id="tspan36"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="147"
+       xml:space="preserve"
+       id="text38"><tspan
+         font-style="italic"
+         id="tspan40"
+         style="font-style:italic;fill:#ba2121">    retrieve:</tspan></text>
+    <text
+       x="0"
+       y="166"
+       xml:space="preserve"
+       id="text42"><tspan
+         font-style="italic"
+         id="tspan44"
+         style="font-style:italic;fill:#ba2121">    Retrieve a single user. As you can see, the the user's posts are hyperlinked.</tspan></text>
+    <text
+       x="0"
+       y="185"
+       xml:space="preserve"
+       id="text46"><tspan
+         font-style="italic"
+         id="tspan48"
+         style="font-style:italic;fill:#ba2121">    &quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="204"
+       xml:space="preserve"
+       id="text50">    queryset <tspan
+   id="tspan52"
+   style="fill:#666666">=</tspan> User<tspan
+   id="tspan54"
+   style="fill:#666666">.</tspan>objects<tspan
+   id="tspan56"
+   style="fill:#666666">.</tspan>all()</text>
+    <text
+       x="0"
+       y="223"
+       xml:space="preserve"
+       id="text58">    serializer_class <tspan
+   id="tspan60"
+   style="fill:#666666">=</tspan> UserSerializer</text>
+    <text
+       x="0"
+       y="242"
+       xml:space="preserve"
+       id="text62" />
+    <text
+       x="0"
+       y="261"
+       xml:space="preserve"
+       id="text64" />
+    <text
+       x="0"
+       y="280"
+       xml:space="preserve"
+       id="text66"><tspan
+   font-weight="bold"
+   id="tspan68"
+   style="font-weight:bold;fill:#008000">class</tspan> <tspan
+   font-weight="bold"
+   id="tspan70"
+   style="font-weight:bold;fill:#0000ff">PostViewSet</tspan>(viewsets<tspan
+   id="tspan72"
+   style="fill:#666666">.</tspan>ModelViewSet):</text>
+    <text
+       x="0"
+       y="299"
+       xml:space="preserve"
+       id="text74">    <tspan
+   font-style="italic"
+   id="tspan76"
+   style="font-style:italic;fill:#ba2121">&quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="318"
+       xml:space="preserve"
+       id="text78"><tspan
+         font-style="italic"
+         id="tspan80"
+         style="font-style:italic;fill:#ba2121">    This endpoint presents the posts in the system.</tspan></text>
+    <text
+       x="0"
+       y="337"
+       xml:space="preserve"
+       id="text82"><tspan
+         font-style="italic"
+         id="tspan84"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="356"
+       xml:space="preserve"
+       id="text86"><tspan
+         font-style="italic"
+         id="tspan88"
+         style="font-style:italic;fill:#ba2121">    list: List all the posts.</tspan></text>
+    <text
+       x="0"
+       y="375"
+       xml:space="preserve"
+       id="text90"><tspan
+         font-style="italic"
+         id="tspan92"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="394"
+       xml:space="preserve"
+       id="text94"><tspan
+         font-style="italic"
+         id="tspan96"
+         style="font-style:italic;fill:#ba2121">    retrieve: Fetch a single post entry.</tspan></text>
+    <text
+       x="0"
+       y="413"
+       xml:space="preserve"
+       id="text98"><tspan
+         font-style="italic"
+         id="tspan100"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="432"
+       xml:space="preserve"
+       id="text102"><tspan
+         font-style="italic"
+         id="tspan104"
+         style="font-style:italic;fill:#ba2121">    create: Create a new blog post.</tspan></text>
+    <text
+       x="0"
+       y="451"
+       xml:space="preserve"
+       id="text106"><tspan
+         font-style="italic"
+         id="tspan108"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="470"
+       xml:space="preserve"
+       id="text110"><tspan
+         font-style="italic"
+         id="tspan112"
+         style="font-style:italic;fill:#ba2121">    Slug is a unique identifier...</tspan></text>
+    <text
+       x="0"
+       y="489"
+       xml:space="preserve"
+       id="text114"><tspan
+         font-style="italic"
+         id="tspan116"
+         style="font-style:italic;fill:#ba2121">    Username and the time the post has been created are automatically</tspan></text>
+    <text
+       x="0"
+       y="508"
+       xml:space="preserve"
+       id="text118"><tspan
+         font-style="italic"
+         id="tspan120"
+         style="font-style:italic;fill:#ba2121">    added.</tspan></text>
+    <text
+       x="0"
+       y="527"
+       xml:space="preserve"
+       id="text122"><tspan
+         font-style="italic"
+         id="tspan124"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="546"
+       xml:space="preserve"
+       id="text126"><tspan
+         font-style="italic"
+         id="tspan128"
+         style="font-style:italic;fill:#ba2121">    update: Update the entire post.</tspan></text>
+    <text
+       x="0"
+       y="565"
+       xml:space="preserve"
+       id="text130"><tspan
+         font-style="italic"
+         id="tspan132"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="584"
+       xml:space="preserve"
+       id="text134"><tspan
+         font-style="italic"
+         id="tspan136"
+         style="font-style:italic;fill:#ba2121">    Details for updating...</tspan></text>
+    <text
+       x="0"
+       y="603"
+       xml:space="preserve"
+       id="text138"><tspan
+         font-style="italic"
+         id="tspan140"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="622"
+       xml:space="preserve"
+       id="text142"><tspan
+         font-style="italic"
+         id="tspan144"
+         style="font-style:italic;fill:#ba2121">    partial_update: Partially update the post.</tspan></text>
+    <text
+       x="0"
+       y="641"
+       xml:space="preserve"
+       id="text146"><tspan
+         font-style="italic"
+         id="tspan148"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="660"
+       xml:space="preserve"
+       id="text150"><tspan
+         font-style="italic"
+         id="tspan152"
+         style="font-style:italic;fill:#ba2121">    destroy: Delete a blog post.</tspan></text>
+    <text
+       x="0"
+       y="679"
+       xml:space="preserve"
+       id="text154"><tspan
+         font-style="italic"
+         id="tspan156"
+         style="font-style:italic;fill:#ba2121">    &quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="698"
+       xml:space="preserve"
+       id="text158">    queryset <tspan
+   id="tspan160"
+   style="fill:#666666">=</tspan> Post<tspan
+   id="tspan162"
+   style="fill:#666666">.</tspan>objects<tspan
+   id="tspan164"
+   style="fill:#666666">.</tspan>all()</text>
+    <text
+       x="0"
+       y="717"
+       xml:space="preserve"
+       id="text166">    serializer_class <tspan
+   id="tspan168"
+   style="fill:#666666">=</tspan> PostSerializer</text>
+    <text
+       x="0"
+       y="736"
+       xml:space="preserve"
+       id="text170" />
+    <text
+       x="0"
+       y="755"
+       xml:space="preserve"
+       id="text172">    <tspan
+   font-weight="bold"
+   id="tspan174"
+   style="font-weight:bold;fill:#008000">def</tspan> <tspan
+   id="tspan176"
+   style="fill:#0000ff">perform_create</tspan>(<tspan
+   id="tspan178"
+   style="fill:#008000">self</tspan>, serializer):</text>
+    <text
+       x="0"
+       y="774"
+       xml:space="preserve"
+       id="text180">        now <tspan
+   id="tspan182"
+   style="fill:#666666">=</tspan> timezone<tspan
+   id="tspan184"
+   style="fill:#666666">.</tspan>now()</text>
+    <text
+       x="0"
+       y="793"
+       xml:space="preserve"
+       id="text186">        serializer<tspan
+   id="tspan188"
+   style="fill:#666666">.</tspan>save(posted_by<tspan
+   id="tspan190"
+   style="fill:#666666">=</tspan><tspan
+   id="tspan192"
+   style="fill:#008000">self</tspan><tspan
+   id="tspan194"
+   style="fill:#666666">.</tspan>request<tspan
+   id="tspan196"
+   style="fill:#666666">.</tspan>user, posted_on<tspan
+   id="tspan198"
+   style="fill:#666666">=</tspan>now)</text>
+    <text
+       x="0"
+       y="812"
+       xml:space="preserve"
+       id="text200" />
+    <text
+       x="0"
+       y="831"
+       xml:space="preserve"
+       id="text202" />
+    <text
+       x="0"
+       y="850"
+       xml:space="preserve"
+       id="text204"><tspan
+   font-weight="bold"
+   id="tspan206"
+   style="font-weight:bold;fill:#008000">class</tspan> <tspan
+   font-weight="bold"
+   id="tspan208"
+   style="font-weight:bold;fill:#0000ff">CommentViewSet</tspan>(viewsets<tspan
+   id="tspan210"
+   style="fill:#666666">.</tspan>ModelViewSet):</text>
+    <text
+       x="0"
+       y="869"
+       xml:space="preserve"
+       id="text212">    <tspan
+   font-style="italic"
+   id="tspan214"
+   style="font-style:italic;fill:#ba2121">&quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="888"
+       xml:space="preserve"
+       id="text216"><tspan
+         font-style="italic"
+         id="tspan218"
+         style="font-style:italic;fill:#ba2121">    This endpoint presents the comments in the system.</tspan></text>
+    <text
+       x="0"
+       y="907"
+       xml:space="preserve"
+       id="text220"><tspan
+         font-style="italic"
+         id="tspan222"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="926"
+       xml:space="preserve"
+       id="text224"><tspan
+         font-style="italic"
+         id="tspan226"
+         style="font-style:italic;fill:#ba2121">    list: List all the comments.</tspan></text>
+    <text
+       x="0"
+       y="945"
+       xml:space="preserve"
+       id="text228"><tspan
+         font-style="italic"
+         id="tspan230"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="964"
+       xml:space="preserve"
+       id="text232"><tspan
+         font-style="italic"
+         id="tspan234"
+         style="font-style:italic;fill:#ba2121">    retrieve: Fetch a single comment entry.</tspan></text>
+    <text
+       x="0"
+       y="983"
+       xml:space="preserve"
+       id="text236"><tspan
+         font-style="italic"
+         id="tspan238"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="1002"
+       xml:space="preserve"
+       id="text240"><tspan
+         font-style="italic"
+         id="tspan242"
+         style="font-style:italic;fill:#ba2121">    create: Create a new comment post.</tspan></text>
+    <text
+       x="0"
+       y="1021"
+       xml:space="preserve"
+       id="text244"><tspan
+         font-style="italic"
+         id="tspan246"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="1040"
+       xml:space="preserve"
+       id="text248"><tspan
+         font-style="italic"
+         id="tspan250"
+         style="font-style:italic;fill:#ba2121">    update: Update the entire comment.</tspan></text>
+    <text
+       x="0"
+       y="1059"
+       xml:space="preserve"
+       id="text252"><tspan
+         font-style="italic"
+         id="tspan254"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="1078"
+       xml:space="preserve"
+       id="text256"><tspan
+         font-style="italic"
+         id="tspan258"
+         style="font-style:italic;fill:#ba2121">    partial_update: Partially update the comment.</tspan></text>
+    <text
+       x="0"
+       y="1097"
+       xml:space="preserve"
+       id="text260"><tspan
+         font-style="italic"
+         id="tspan262"
+         style="font-style:italic;fill:#ba2121" /></text>
+    <text
+       x="0"
+       y="1116"
+       xml:space="preserve"
+       id="text264"><tspan
+         font-style="italic"
+         id="tspan266"
+         style="font-style:italic;fill:#ba2121">    destroy: Delete a comment.</tspan></text>
+    <text
+       x="0"
+       y="1135"
+       xml:space="preserve"
+       id="text268"><tspan
+         font-style="italic"
+         id="tspan270"
+         style="font-style:italic;fill:#ba2121">    &quot;&quot;&quot;</tspan></text>
+    <text
+       x="0"
+       y="1154"
+       xml:space="preserve"
+       id="text272">    queryset <tspan
+   id="tspan274"
+   style="fill:#666666">=</tspan> Comment<tspan
+   id="tspan276"
+   style="fill:#666666">.</tspan>objects<tspan
+   id="tspan278"
+   style="fill:#666666">.</tspan>all()</text>
+    <text
+       x="0"
+       y="1173"
+       xml:space="preserve"
+       id="text280">    serializer_class <tspan
+   id="tspan282"
+   style="fill:#666666">=</tspan> CommentSerializer</text>
+    <text
+       x="0"
+       y="1192"
+       xml:space="preserve"
+       id="text284" />
+    <text
+       x="0"
+       y="1211"
+       xml:space="preserve"
+       id="text286">    <tspan
+   font-weight="bold"
+   id="tspan288"
+   style="font-weight:bold;fill:#008000">def</tspan> <tspan
+   id="tspan290"
+   style="fill:#0000ff">perform_create</tspan>(<tspan
+   id="tspan292"
+   style="fill:#008000">self</tspan>, serializer):</text>
+    <text
+       x="0"
+       y="1230"
+       xml:space="preserve"
+       id="text294">        now <tspan
+   id="tspan296"
+   style="fill:#666666">=</tspan> timezone<tspan
+   id="tspan298"
+   style="fill:#666666">.</tspan>now()</text>
+    <text
+       x="0"
+       y="1249"
+       xml:space="preserve"
+       id="text300">        serializer<tspan
+   id="tspan302"
+   style="fill:#666666">.</tspan>save(user<tspan
+   id="tspan304"
+   style="fill:#666666">=</tspan><tspan
+   id="tspan306"
+   style="fill:#008000">self</tspan><tspan
+   id="tspan308"
+   style="fill:#666666">.</tspan>request<tspan
+   id="tspan310"
+   style="fill:#666666">.</tspan>user, commented_on<tspan
+   id="tspan312"
+   style="fill:#666666">=</tspan>now)</text>
+    <text
+       x="0"
+       y="1268"
+       xml:space="preserve"
+       id="text314" />
+  </g>
+</svg>
