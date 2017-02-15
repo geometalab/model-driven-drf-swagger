@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from django.shortcuts import render_to_response
 from django.utils import timezone
 
 from rest_framework import viewsets
@@ -73,3 +74,7 @@ class CommentViewSet(viewsets.ModelViewSet):
     def perform_create(self, serializer):
         now = timezone.now()
         serializer.save(user=self.request.user, commented_on=now)
+
+
+def overview(request):
+    return render_to_response('home.html')
