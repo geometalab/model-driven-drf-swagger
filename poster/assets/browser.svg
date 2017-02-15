@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="402.60062"
+   height="574.97296"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="browser.svg"
+   inkscape:export-filename="/home/nicola/workspace/hsr/geometalab/model-driven-drf/poster/assets/browser.png"
+   inkscape:export-xdpi="2400"
+   inkscape:export-ydpi="2400">
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1279"
+     inkscape:window-height="1391"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="0.83250001"
+     inkscape:cx="382.75791"
+     inkscape:cy="388.96845"
+     inkscape:window-x="1255"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="imagebot_7"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     label="Camada 1"
+     id="imagebot_3"
+     transform="translate(0.69568665,-0.07285736)">
+    <g
+       label="Camada 1"
+       transform="translate(-163.916,-314.26)"
+       id="imagebot_4">
+      <g
+         id="imagebot_7"
+         transform="matrix(0.5,0,0,0.5,52.346,193.49)">
+        <g
+           id="g4178">
+          <rect
+             ry="10.354354"
+             rx="10.354354"
+             y="243.68571"
+             x="223.74863"
+             height="1145.9459"
+             width="801.20123"
+             id="rect4150"
+             style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:#6a6a6a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:#e8e8e8"
+             inkscape:connector-curvature="0"
+             d="m 237.25995,244.36203 c -6.61674,0 -11.98141,4.46958 -11.98141,9.98227 l 0,72.1118 797.76236,0 0,-72.1118 c 0,-5.51279 -5.3647,-9.98227 -11.9814,-9.98227 l -773.79955,0 z"
+             id="imagebot_17" />
+          <path
+             style="fill:#949494"
+             inkscape:connector-curvature="0"
+             transform="matrix(0.5614,0,0,0.5614,-136.38,51.58)"
+             d="m 715.69695,412.23389 c 0,5.97244 -4.84163,10.81407 -10.81408,10.81407 -5.97244,0 -10.81407,-4.84163 -10.81407,-10.81407 0,-5.97245 4.84163,-10.81408 10.81407,-10.81408 5.97245,0 10.81408,4.84163 10.81408,10.81408 z"
+             id="imagebot_16" />
+          <use
+             style="fill:#949494"
+             x="0"
+             y="0"
+             width="1600"
+             height="1000"
+             transform="translate(23.732,2.3452e-6)"
+             xlink:href="#imagebot_16"
+             id="imagebot_15" />
+          <use
+             style="fill:#949494"
+             x="0"
+             y="0"
+             width="1600"
+             height="1000"
+             transform="translate(23.733,2.3452e-6)"
+             xlink:href="#imagebot_15"
+             id="imagebot_14" />
+          <rect
+             style="fill:#ffffff"
+             x="340.01001"
+             y="265.32001"
+             width="611.53998"
+             height="35.386002"
+             ry="3"
+             rx="3"
+             id="imagebot_13" />
+          <path
+             style="fill:#949494"
+             inkscape:connector-curvature="0"
+             d="m 368.68,274.4 c -4.7279,0 -8.5625,3.8486 -8.5625,8.5938 0,4.7452 3.8343,8.625 8.5625,8.625 3.5302,0 6.5631,-2.1516 7.875,-5.2188 l 0.21875,-0.53125 c -0.98428,-0.29608 -1.7553,-0.55578 -2.6562,-0.84375 l -0.1875,0.40625 c -0.9148,1.9855 -2.9263,3.3438 -5.25,3.3438 -3.1883,0 -5.75,-2.575 -5.75,-5.7812 0,-3.2062 2.5612,-5.7812 5.75,-5.7812 2.4587,0 4.4818,1.5788 5.3125,3.75 l -1.5938,0 3.2561,3.7057 3.4314,-3.7057 -2.1562,0 c -0.92162,-3.7541 -4.2305,-6.5625 -8.25,-6.5625 L 368.68,274.4 Z"
+             id="imagebot_12" />
+          <rect
+             style="fill:#949494"
+             x="973.95001"
+             y="273.97"
+             width="22.931999"
+             height="4.8562999"
+             id="imagebot_11" />
+          <use
+             style="fill:#949494"
+             x="0"
+             y="0"
+             width="1600"
+             height="1000"
+             transform="translate(-1.4942e-6,6.6099)"
+             xlink:href="#imagebot_11"
+             id="imagebot_10" />
+          <use
+             style="fill:#949494"
+             x="0"
+             y="0"
+             width="1600"
+             height="1000"
+             transform="translate(-1.4942e-6,6.6099)"
+             xlink:href="#imagebot_10"
+             id="imagebot_9" />
+          <rect
+             style="fill:#dedede"
+             x="225.34073"
+             y="323.81"
+             width="797.54999"
+             height="2.4623001"
+             id="imagebot_8" />
+        </g>
+      </g>
+      <text
+         font-size="8px"
+         id="imagebot_5"
+         xml:space="preserve"
+         y="337.47412"
+         x="247.11682"
+         style="font-size:8px;font-family:Sans;fill:#5b5b5b"><tspan
+           font-size="8px"
+           id="imagebot_6"
+           x="247.11682"
+           y="337.47412"
+           style="font-size:8px;fill:#5b5b5b">https://mdd.hixi.ch/docs/</tspan></text>
+    </g>
+    <title
+       id="title21">Camada 1</title>
+  </g>
+  <metadata
+     id="imagebot_2">image/svg+xmlOpenclipart<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+</svg>
