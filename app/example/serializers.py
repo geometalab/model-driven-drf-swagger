@@ -14,7 +14,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
 class PostSerializer(serializers.HyperlinkedModelSerializer):
     comments = serializers.HyperlinkedRelatedField(view_name='comment-detail', many=True, read_only=True)
-    posted_by = serializers.ReadOnlyField()
+    posted_by = serializers.PrimaryKeyRelatedField(many=False, read_only=True)
     posted_on = serializers.ReadOnlyField()
 
     class Meta:
@@ -23,7 +23,7 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class CommentSerializer(serializers.ModelSerializer):
-    user = serializers.ReadOnlyField()
+    user = serializers.PrimaryKeyRelatedField(many=False, read_only=True)
     commented_on = serializers.ReadOnlyField()
 
     class Meta:

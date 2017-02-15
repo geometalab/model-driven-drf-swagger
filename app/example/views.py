@@ -49,6 +49,7 @@ class PostViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         now = timezone.now()
+        # serializer.save(posted_by=User.objects.get(id=self.request.user.id), posted_on=now)
         serializer.save(posted_by=self.request.user, posted_on=now)
 
 
