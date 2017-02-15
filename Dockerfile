@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 
 ADD ./requirements.txt ./requirements.txt
 
+RUN pip install gunicorn
 RUN pip install -r ./requirements.txt
 
 ADD app /app
