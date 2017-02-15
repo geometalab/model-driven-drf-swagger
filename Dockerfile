@@ -17,4 +17,6 @@ WORKDIR /app
 
 EXPOSE 8000
 
+RUN python3 manage.py collectstatic --no-input
+
 CMD python3 manage.py runserver_plus 0.0.0.0:8000
