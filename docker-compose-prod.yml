@@ -1,0 +1,35 @@
+version: '2.1'
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    expose:
+      - "8000"
+    command: gunicorn --bind 0.0.0.0:8000 app.wsgi
+    volumes:
+      - ../db.sqlite3:/app/db.sqlite3
+#    ports:
+#      - "8000:8000"
+    environment:
+      # Logging
+      - PYTHONUNBUFFERED=non-empty-string
+      - PYTHONIOENCODING=utf-8
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
+      # We enable Python hash randomization to protect Django from certain DoS attacks.
+      # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/#python-options
+      - PYTHONHASHSEED=random
+      # Django settings
+      - DEBUG=False
+      - ALLOWED_HOSTS=<domain>
+      - SECRET_KEY=${SECRET_KEY:-secret-key-91826bddu76t13bex123tv798xht124xnz234896h128x4}
+      - VIRTUAL_HOST=mdd.hixi.ch
+      - LETSENCRYPT_HOST=mdd.hixi.ch
+      - LETSENCRYPT_EMAIL=nic@hixi.ch
+    networks:
+      - proxy-tier
+networks:
+  proxy-tier:
+    external:
+      name: nginx-proxy
